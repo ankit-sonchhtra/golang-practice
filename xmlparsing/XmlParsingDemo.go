@@ -45,6 +45,13 @@ func main() {
 
 	xml.Unmarshal(byteValue, &users)
 
-	fmt.Println(users.Users[0])
+	for i := 0; i < len(users.Users); i++ {
+		fmt.Println("User name: ", users.Users[0].Name)
+		fmt.Println("User type: ", users.Users[0].Type)
+		fmt.Println("Social-facebook: ", users.Users[0].Social.Facebook)
+		fmt.Println("Social-twitter: ", users.Users[0].Social.Twitter)
+		fmt.Println("Social-youtube: ", users.Users[0].Social.Youtube)
+		fmt.Printf("\n")
+	}
 
 }
