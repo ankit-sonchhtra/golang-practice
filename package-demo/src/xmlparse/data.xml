@@ -1,0 +1,14 @@
+<data>
+    <person type="admin">
+        <firstname>Nic</firstname>
+        <lastname>Raboy</lastname>
+        <address>
+            <city>San Francisco</city>
+            <state>CA</state>
+        </address>
+    </person>
+    <person type="admin">
+        <firstname>Maria</firstname>
+        <lastname>Raboy</lastname>
+    </person>
+</data>
