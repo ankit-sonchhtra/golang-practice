@@ -33,9 +33,9 @@ func main() {
 
 	if err != nil {
 		fmt.Println(err)
+	} else {
+		fmt.Println("File opened successfully.")
 	}
-
-	fmt.Println("File opened successfully.")
 
 	defer xmlFile.Close()
 
