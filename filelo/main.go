@@ -10,7 +10,7 @@ import (
 func main() {
 	var employees [5]structure.Employee
 
-	employees[0] = structure.Employee{"11", "Uber India", "Product Dev",
+	employees[0] = structure.Employee{"11", "TCS", "Product Dev",
 		structure.Person{"XXXX-XXXX-XXXX-XXXX", "12/10/1992", structure.Address{"M.G.Road",
 			"Rajkot", "360006"}}}
 
@@ -18,15 +18,15 @@ func main() {
 		structure.Person{"YYYY-YYYY-YYYY-YYYY", "10/12/1992", structure.Address{"M.G.Road",
 			"Pune", "411016"}}}
 
-	employees[2] = structure.Employee{"09", "Icertis", "Transportation",
+	employees[2] = structure.Employee{"09", "Cognizant", "Transportation",
 		structure.Person{"XXXX-XXXX-XXXX-XXXX", "10/10/1992", structure.Address{"M.G.Road",
 			"Pune", "411011"}}}
 
-	employees[3] = structure.Employee{"08", "Datametica", "Product",
+	employees[3] = structure.Employee{"08", "IBM", "Product",
 		structure.Person{"YYYY-YYYY-YYYY-YYYY", "12/12/1992", structure.Address{"M.G.Road",
 			"Pune", "412212"}}}
 
-	employees[4] = structure.Employee{"07", "Universal Giving", "Delivery",
+	employees[4] = structure.Employee{"07", "Mastercard", "Delivery",
 		structure.Person{"XXXX-XXXX-XXXX-XXXX", "11/11/1992", structure.Address{"Commercial Street",
 			"USA", "4108"}}}
 
